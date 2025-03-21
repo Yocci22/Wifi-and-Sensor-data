@@ -7,6 +7,8 @@ Start/Modify a project in STM32 IoT node to read the sensor value, such as 3D Ac
 
 修改main.c的相关配置，主要包括网络，ip和端口配置。并连接Python socket server，手机sensor资料后，透过sokect送出。（参考mian.c）
 
+注意：如果是连接手机热点，需要保证手机WIFI处在2-4G频段。
+
 最后得到图形化展示：
 ![image](https://github.com/user-attachments/assets/500a5cbc-624d-4b95-9837-d3b1771b72e6)
 
