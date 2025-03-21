@@ -23,8 +23,8 @@
 #define TERMINAL_USE
 
 /* Update SSID and PASSWORD with own Access point settings */
-#define SSID     "Yocci"
-#define PASSWORD "wuyouyou"
+#define SSID     "yourWIFI"
+#define PASSWORD "yourPASSWORD"
 
 uint8_t RemoteIP[] = {172,20,10,3};
 #define RemotePORT	65431
